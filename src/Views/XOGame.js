@@ -116,16 +116,16 @@ class Game extends React.Component {
         }
 
         return (
-            <div className="game m-3">
-                <h2 className="mb-3 col-5 text-center">Enter players names</h2>
-                <div className="row">
-                    <div className="col-3">
+            <div className="game">
+                <h2 className="">Enter players names</h2>
+                <div className="">
+                    <div className="">
                         <h6>Player with X symbols:</h6>
-                        <input type="text" className="form-control" onChange={playerXName} />
+                        <input type="text" className="" onChange={playerXName} />
                     </div>
-                    <div className="col-3">
+                    <div className="">
                         <h6>Player with O symbols:</h6>
-                        <input type="text" className="form-control" onChange={playerOName} />
+                        <input type="text" className="" onChange={playerOName} />
                     </div>
                 </div>
                 <div className="">

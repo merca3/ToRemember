@@ -1,3 +1,8 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* 
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
@@ -39,4 +44,4 @@ ul {
 
 .kbd-navigation .square:focus {
     background: #ddd;
-}
+} */

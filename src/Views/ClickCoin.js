@@ -41,27 +41,27 @@ function ClickCoin() {
     }
 
     return (
-        <div className="text-center">
-            <h2 className="my-5 border rounded border-info p-3">Click and reach 1000 points as soons as you can!</h2>
-            <button className="btn btn-lg btn-info p-3" onClick={plusCoin}>CLICK ME!</button>
-            <div className="my-5">
-                <h4 className="mb-4">Total coins: {totalCoins}</h4>
-                <h5 className="mb-2">Available coins for upgrades: {availCoins}</h5>
+        <div className="">
+            <h2 className="">Click and reach 1000 points as soons as you can!</h2>
+            <button className="" onClick={plusCoin}>CLICK ME!</button>
+            <div className="">
+                <h4 className="">Total coins: {totalCoins}</h4>
+                <h5 className="">Available coins for upgrades: {availCoins}</h5>
             </div>
             <h6>Upgrades</h6>
-            <div className="row justify-content-center my-3">
-                <div className="col-2 mx-2">
-                    <div className="row">1x upgrades: {amount1xUpgrade}</div>
-                    <div className="row">Current price: {price1xUpgrade}</div>
-                    <div className="row">
-                        <button disabled={isDisabled1x} className="btn btn-info btn-sm" onClick={upgrade1x}>Buy 1x upgrade</button>
+            <div className="">
+                <div className="">
+                    <div className="">1x upgrades: {amount1xUpgrade}</div>
+                    <div className="">Current price: {price1xUpgrade}</div>
+                    <div className="">
+                        <button disabled={isDisabled1x} className="" onClick={upgrade1x}>Buy 1x upgrade</button>
                     </div>
                 </div>
-                <div className="col-2 mx-2">
-                    <div className="row">10x upgrades: {amount10xUpgrade}</div>
-                    <div className="row">Current price: {price10xUpgrade}</div>
-                    <div className="row">
-                        <button disabled={isDisabled10x} className="btn btn-info btn-sm" onClick={upgrade10x}>Buy 10x upgrade</button>
+                <div className="">
+                    <div className="">10x upgrades: {amount10xUpgrade}</div>
+                    <div className="">Current price: {price10xUpgrade}</div>
+                    <div className="">
+                        <button disabled={isDisabled10x} className="" onClick={upgrade10x}>Buy 10x upgrade</button>
                     </div>
                 </div>
             </div>

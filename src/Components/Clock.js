@@ -23,8 +23,8 @@ class Clock extends React.Component {
 
     render() {
         return (
-            <div className="text-center m-5 fixed-bottom">
-                <button className="btn btn-lg btn-info">{this.state.date.toLocaleTimeString()}</button>
+            <div className="">
+                <button className="">{this.state.date.toLocaleTimeString()}</button>
             </div>
         )
     }

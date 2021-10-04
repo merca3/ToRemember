@@ -12,11 +12,11 @@ function Remember({happy}) {
     }
 
     return (
-        <div className="my-3 text-center border rounded border-info p-5">
+        <div className="text-center bg-lime-500">
             <div>
                 I remember something! {happy}
             </div>
-            <button className="btn" onClick={changeColor} style={{ backgroundColor: color }}>Hoorray!</button>
+            <button className="rounded py-2 px-4" onClick={changeColor} style={{ backgroundColor: color }}>Hoorray!</button>
         </div>
     )
 }
